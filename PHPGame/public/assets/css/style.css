@@ -1,0 +1,123 @@
+body{
+  background-color: rgb(228, 228, 228);
+}
+marquee{
+  padding-top: 2px;
+  font-size: 17px;
+}
+/* //Login Page CSS */
+.container-auth{
+  width: 700px;
+  background-color: rgb(241, 241, 241);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+  align-items: center;
+  row-gap: 14px;
+}
+.container-auth h1{
+  color: rgb(255, 26, 141);
+  font-weight: 700;
+  text-align: center;
+}
+.container-auth .d-grid{
+  display: flex !important;
+  flex-direction: column !important;
+  row-gap: 2px;
+}
+.container-auth span{
+  font-size: 17px;
+}
+.container-auth .form-control{
+  width: 400px;
+}
+.container-auth .d-flex{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.container-auth .d-flex .btn{
+  width: 130px;
+}
+.container-auth .d-flex-game-stats{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(212, 212, 212);
+  width: 100%;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-auth .d-flex-game-stats span{
+  font-size: 23px;
+  color: rgb(10, 1, 1)
+}
+.container-auth .d-flex-game-stats img{
+  height: 40px !important;
+  margin-right: 5px;
+}
+.d-flex-lives{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.d-flex-lives span{
+  font-size: 40px !important;
+}
+.container-game{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(212, 212, 212);
+  padding: 30px;
+}
+.container-game span{
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.question{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+}
+.container-game .question p{
+  border: 1px solid black;
+  padding: 10px;
+  width: 51px;
+  text-align: center;
+  font-size: 16px;
+}
+.answer{
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+.answer .form-control{
+  width: 60px;
+}
+.msg{
+  transform: translate(0%, -155%);
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.lost{
+  background-color: rgb(255, 25, 25);
+}
+.won{
+  background-color: rgb(0, 113, 0);
+}
+.container-history{
+  width: 1000px;
+}
